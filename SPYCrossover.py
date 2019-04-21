@@ -19,7 +19,8 @@ def initialize(context):
     #SSO = SPY at 2x leverage
     context.SSO = sid(32270) 
     
-    #AGG iShares Core U.S. Aggregate Bond ETF, Barclays U.S. Aggregate Bond Index is a relatively stable index of high-quality,       #investment-grade (78% AAA-rated) bonds with an average maturity under five years.
+    #AGG iShares Core U.S. Aggregate Bond ETF, Barclays U.S. Aggregate Bond Index is a relatively stable index of high-quality,       
+    #investment-grade (78% AAA-rated) bonds with an average maturity under five years.
     context.AGG = sid(25485)   
     
     context.stop_price_SPY = 0
